@@ -1,0 +1,18 @@
+.lvlSection {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+.standardSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: stretch;
+}
+.taskSection {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: space-between;
+}

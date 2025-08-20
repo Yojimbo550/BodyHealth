@@ -1,0 +1,4 @@
+Username alexyeryomin13
+Password 3Fi1N4hccrRfKqm8
+IP 45.134.184.84
+mongodb+srv://alexyeryomin13:3Fi1N4hccrRfKqm8@cluster0.ibib5gi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
