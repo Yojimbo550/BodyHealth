@@ -12,15 +12,19 @@
 // export type RootState = ReturnType<typeof store.getState>;
 // export type AppDispatch = typeof store.dispatch;
 // export default store;
+import {  taskSlice } from './slice';
 import { configureStore } from '@reduxjs/toolkit';
-import someFeatureReducer from '../store/slice';
 
-export const store = configureStore({
+
+ export const store = configureStore({
   reducer: {
-    someFeature: someFeatureReducer,
-  },
-});
+    task:taskSlice.reducer
+  }
+ 
+})
+;
 
 // Типы для TypeScript
+
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
